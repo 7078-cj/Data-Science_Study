@@ -6,13 +6,13 @@ file_path = os.path.join(base, "orders.csv")
 df = pd.read_csv(file_path)
 # print(df)
 
-# print(df.head())
+print(df.head())
 #show the first 5 data of the df
 
-# print(df.tail())
+print(df.tail())
 #shows last 5
 
-# print(df.info())
+print(df.info())
 #show the info about every data in df
 
 print(df.describe())
