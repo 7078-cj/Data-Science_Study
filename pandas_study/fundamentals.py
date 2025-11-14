@@ -20,3 +20,6 @@ print(df.describe())
 
 print(df.index)
 #RangeIndex(start=0, stop=40, step=1) show the index size of the df
+
+print(df.columns)
+#Index(['OrderID', 'CustomerName', 'Product', 'Category', 'Quantity', 'Price','OrderDate', 'Shipped', 'Country'],dtype='object')
